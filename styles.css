@@ -1,0 +1,202 @@
+
+
+.mae{
+    width: 100%;
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.um{
+    width: 100px;
+    height: 50px;
+    background-color: #DFFF00;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 8px rgb(204, 204, 255);
+    animation-name: um;
+    animation-duration: 1s;
+    animation-iteration-count: 30;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+.dois{
+    width: 100px;
+    height: 50px;
+    background-color: #FFBF00;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgb(100, 149, 237);
+    animation-name: dois;
+    animation-duration: 1s;
+    animation-iteration-count: 30;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+.tres{
+    width: 100px;
+    height: 50px;
+    background-color: #FF7F50;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgb(64, 224, 208);
+    animation-name: tres;
+    animation-duration: 1s;
+    animation-iteration-count: 30;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+.quatro{
+    width: 100px;
+    height: 50px;
+    background-color: #DE3163;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgb(159, 226, 191);
+    animation-name: quatro;
+    animation-duration: 1s;
+    animation-iteration-count: 30;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+.cinco{
+    width: 100px;
+    height: 50px;
+    background-color: #9FE2BF;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgb(222, 49, 99);
+    animation-name: cinco;
+    animation-duration: 1s;
+    animation-iteration-count: 30;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+.seis{
+    width: 100px;
+    height: 50px;
+    background-color: #40E0D0;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgb(255, 127, 80);
+    animation-name: seis;
+    animation-duration: 1s;
+    animation-iteration-count: 30;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+.sete{
+    width: 100px;
+    height: 50px;
+    background-color: #6495ED;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgb(255, 191, 0);
+    animation-name: sete;
+    animation-duration: 1s;
+    animation-iteration-count: 30;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+.oito{
+    width: 100px;
+    height: 50px;
+    background-color: #CCCCFF;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgb(223, 255, 0);
+    animation-name: oito;
+    animation-duration: 1s;
+    animation-iteration-count: 30;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+.nove{
+    width: 100px;
+    height: 50px;
+    background-color: #0beb3c;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgb(255, 98, 7);
+    animation-name: nove;
+    animation-duration: 1s;
+    animation-iteration-count: 30;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes um{
+    from {background-color: #DFFF00;}
+    to {background-color: #8400ff;}
+    from{box-shadow: 0px 0px 19px 8px rgb(204, 204, 255);}
+    to{box-shadow:0px 0px 15px 10px rgba(181, 181, 240, 0.644);}
+}
+
+@keyframes dois{
+    from {background-color: #FFBF00;}
+    to {background-color: #5eff00;}
+    from{box-shadow: 0px 0px 19px 5px rgb(100, 149, 237);}
+    to{box-shadow: 0px 0px 15px 10px rgba(233, 149, 149, 0.562);}
+}
+
+@keyframes tres{
+    from {background-color: #FF7F50;}
+    to {background-color: #00ffff;}
+    from{box-shadow: 0px 0px 19px 5px rgb(64, 224, 208);}
+    to{box-shadow: 0px 0px 15px 10px rgba(174, 245, 157, 0.664);}
+}
+
+@keyframes quatro{
+    from {background-color: #DE3163;}
+    to {background-color: #3700ff;}
+    from{box-shadow: 0px 0px 19px 5px rgb(159, 226, 191);}
+    to{box-shadow: 0px 0px 15px 10px rgb(180, 156, 241);}
+}
+
+@keyframes cinco{
+    from {background-color: #9FE2BF;}
+    to {background-color: #ff0055;}
+    from{box-shadow: 0px 0px 19px 5px rgb(222, 49, 99);}
+    to{box-shadow: 0px 0px 15px 10px rgba(140, 241, 182, 0.555);}
+}
+
+@keyframes seis{
+    from {background-color: #40E0D0;}
+    to {background-color: #fbff00;}
+    from{box-shadow: 0px 0px 19px 5px rgb(255, 127, 80);}
+    to{box-shadow: 0px 0px 15px 10px rgba(240, 238, 128, 0.596);}
+}
+
+@keyframes sete{
+    from {background-color: #6495ED;}
+    to {background-color: #f12b87;}
+    from{box-shadow: 0px 0px 19px 5px rgb(255, 191, 0);}
+    to{box-shadow: 0px 0px 15px 10px rgba(221, 120, 224, 0.575);}
+}
+
+@keyframes oito{
+    from {background-color: rgb(7, 112, 102);}
+    to {background-color: #e01089;}
+    from {box-shadow: 0px 0px 19px 5px rgb(223, 255, 0);}
+    to {box-shadow: 0px 0px 15px 10px rgba(133, 153, 245, 0.603);}
+}
+
+@keyframes nove{
+    from {background-color: #0beb3c;}
+    to {background-color: #ea00ff;}
+    from{box-shadow: 0px 0px 19px 5px rgb(255, 98, 7);}
+    to{box-shadow: 0px 0px 15px 10px rgba(135, 230, 247, 0.589);}
+}
+
